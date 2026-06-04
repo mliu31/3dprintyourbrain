@@ -1,9 +1,5 @@
 # Brain Extraction From NIfTI
 
-This folder is `C:\Users\mgnli\Downloads\brain_extraction_workflow`.
-
-It contains a small reusable workflow for skull-stripping a 3D anatomical NIfTI and exporting a brain STL. The scripts can be run from anywhere by using the full paths shown below.
-
 ## Files
 
 - `extract_brain_from_nifti.py` - runs HD-BET skull stripping, writes a brain NIfTI, mask, QA PNG, surface preview PNG, and optional STL.
